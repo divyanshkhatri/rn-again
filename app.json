@@ -1,0 +1,17 @@
+{
+  "name": "db",
+  "displayName": "db",
+  "expo": {
+    "name": "db",
+    "slug": "db",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
