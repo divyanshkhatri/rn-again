@@ -29,7 +29,10 @@ export default class Signup extends React.Component{
             body: JSON.stringify(data),
             headers: { 'Content-type': 'application/json' }
         }).then(response => response.json())
-            .then(json => AsyncStorage.setItem('token', json.token) )
+            .then(json => {
+                console.log(json)
+                AsyncStorage.setItem('token', json.token)
+        } )
     }
     render(){
         return (
